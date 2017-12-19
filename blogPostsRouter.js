@@ -71,7 +71,7 @@ router.put('/:id', jsonParser, (req, res) => {
     publishDate: req.body.publishDate
   });
   res.status(204).end();
-})
+});
 
 //Delete blog post
 router.delete('/:id', (req, res) => {
