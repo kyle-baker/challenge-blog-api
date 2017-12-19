@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: A5tIEAA8okJJ6RbCKzblApEVP/WzEEE6Dv7+V6SbUahU79+n3xPgtjdMWuSc6yRJAC/6GmK1CUEneDrGI1JzAJkhujNuHMpI7SJUnsirlS3vlFVeUPlIsf7qD101TFmKXJCF6kFDGuv3oP/9Pvl7NJyeV5P0CfVTK9ye4G+wPUJ7lbSgbUbbuYBOaqb6PPH1t/O90dOprWaTnvLVlpo++xgZnTORxEh0noCVB8BNWojhyz0mUjW3u+J09J9p8Wraczi3E2t9wwWV35Efu7U8NDvCjq+yl6MJ3fXllt5eCB7saaf8X9hEjn1ouszJZvhLpCZPrmYXv6+l4arzIaPY37+DkZC8RGmenXjVY6HDIg+6N6v0ku3vwwROv06/8unTvFdsSfYpmJPSSCTJqSPOpQmr7U8IA3x8WVe3jdKJzaDidOsSJb1gu7jCAoV/QZYMMN9FYxQw9ufXHaltxB/qIj6p8bd4RaUprN0dZHEl46SFY3QxBdf6m7TA0j9aZM/hmntRaQzLEk+SYQ/g15V1ieNTjoMLHD5EPlJzBwiTgWKmrz/TkITnqxPFBiOSaan9UlsF7uXY6wHG/Op+lDjBLHBvWrXtJIrcefxgad0R5hu0j5GGv/OU28+Q0zFcQJkTClD2HJ6yfgLYhYGf414sSgxMqomGxu5mhbjl6nx9+Ig=
+  app: limitless-refuge-21135
+  on:
+    repo: kyle-baker/challenge-blog-api
